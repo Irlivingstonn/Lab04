@@ -18,7 +18,6 @@
 4. `sed 's/<h2>/## /g' sedfile.html`
 5. `sed -e 's/<ul>//g' -e 's/<html>//g' sedfile.html`
 6. `sed 's/Batches/Matches/g' sedfile.html`
-7. (Optional notes if needed)
 
 ## Part 3 Answers
 
