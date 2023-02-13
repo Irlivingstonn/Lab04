@@ -21,8 +21,8 @@
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
-5.
+1. `awk '/Bil/ {print}' records.txt`
+2. `awk '/42/ {print $3}' records.txt`
+3. `awk '/wright.edu/ {print $1",",$2":", $3}' records.txt`
+4. `awk '/1234/&&/wright.edu/ {print $2,"Last favorite number is:",$4}' records.txt`
+5. `awk '{print $1,$2,"N0T@PL@!NP@$$W0RD",$4,$5,$6}' <records.txt >updaterecords.txt`
