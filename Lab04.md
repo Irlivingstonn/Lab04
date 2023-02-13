@@ -7,7 +7,7 @@
 
 1. `grep -x "714" grepdata.txt `
 2. `grep -i "CA" grepdata.txt`
-3. `grep "@" grepdata.txt
+3. `grep "@" grepdata.txt`
 4. `grep ", 2" grepdata.txt `
 
 ## Part 2 Answers
